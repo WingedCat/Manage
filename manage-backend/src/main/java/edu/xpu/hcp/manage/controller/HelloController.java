@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @author hcp
  * @version 1.0
- * @create 20:15 2019/9/23
+ * @create 20:31 2019/9/23
  */
 
 @RestController
@@ -23,6 +23,6 @@ public class HelloController {
     
     @GetMapping("hello")
     public String hello(){
-        return "hello";
+        return "恭喜你！项目初始化成功了^_^";
     }
 }
